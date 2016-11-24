@@ -13,13 +13,23 @@ class FirstViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
     @IBOutlet var pageControl: UIPageControl!
     
     @IBOutlet weak var pickerView: UIPickerView!
-    var pickerDataSource = ["A", "B", "C"];
+    var pickerDataSource = ["A", "B", "C","D","E"];
      override func viewDidLoad() {
         super.viewDidLoad()
         self.pickerView.dataSource = self;
         self.pickerView.delegate = self;
+        pickerView.backgroundColor = UIColor.white
         
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        // Hide the navigation bar on the this view controller
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        // Show the navigation bar on other view controllers
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
     override func didReceiveMemoryWarning() {
@@ -40,6 +50,7 @@ class FirstViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
     }
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return pickerDataSource [row]
+
         
 }
 }
