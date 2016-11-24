@@ -305,7 +305,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
-                                    <segue destination="flo-Ei-FEB" kind="show" id="O9f-jC-fd6"/>
+                                    <segue destination="flo-Ei-FEB" kind="show" id="SH9-yR-rPm"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beJ-vq-UNe">
@@ -407,10 +407,10 @@
             </objects>
             <point key="canvasLocation" x="2628" y="-320.68965517241384"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Fourth View Controller-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController storyboardIdentifier="Expert Page 1 View Controller" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="DV4mini" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Expert Page 1 View Controller" id="8rJ-Kc-sve" customClass="FourthViewController" customModule="DV4mini" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -445,7 +445,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Local Mode (This Device)"/>
-                                    <segment title="Network Mode (Search)"/>
+                                    <segment title="Network Mode (Search Network)"/>
                                 </segments>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DMR -QRG Correction [HZ]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GvG-Ni-e4R">
@@ -465,7 +465,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
-                                    <segue destination="PnZ-Vw-ozK" kind="show" id="mgH-BL-JX6"/>
+                                    <segue destination="PnZ-Vw-ozK" kind="show" id="6gt-n3-jSA"/>
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ucu-rW-k6f">
@@ -532,10 +532,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ePu-rL-vEh">
-                                <rect key="frame" x="63" y="436" width="249" height="44"/>
+                                <rect key="frame" x="20" y="412" width="334" height="97"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outlet property="dataSource" destination="8rJ-Kc-sve" id="yaC-ci-MBV"/>
+                                    <outlet property="delegate" destination="8rJ-Kc-sve" id="ys1-XG-dWZ"/>
                                 </connections>
                             </pickerView>
                         </subviews>
