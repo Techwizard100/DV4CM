@@ -12,7 +12,12 @@ class FirstViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
 
     @IBOutlet var pageControl: UIPageControl!
     
+    @IBOutlet var ScrollViewPanel: UIScrollView!
+    
     @IBOutlet weak var pickerView: UIPickerView!
+    
+    @IBAction func textFieldDoneEditing(sender: UITextField) {
+        sender.resignFirstResponder()}
     
     var pickerDataSource = ["A","B","C","D","E"];
      override func viewDidLoad() {
@@ -20,7 +25,7 @@ class FirstViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
         self.pickerView.dataSource = self;
         self.pickerView.delegate = self;
         pickerView.backgroundColor = UIColor.white
-      
+        ScrollViewPanel.contentSize.height = 650
         
         // Do any additional setup after loading the view, typically from a nib.
     }
