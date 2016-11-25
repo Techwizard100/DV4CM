@@ -8,24 +8,17 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource  {
+class SecondViewController: UIViewController {
     
-    
-    @IBOutlet var pageControl: UIPageControl!
-    
-    @IBOutlet var pickerView2: UIPickerView!
-    
-    
-    var pickerDataSource = ["A","B","C","D","E"];
     override func viewDidLoad() {
         super.viewDidLoad()
-       pickerView2.dataSource = self
-       pickerView2.delegate = self
-        pickerView2.backgroundColor = UIColor.white
-        
-
+        // Do any additional setup after loading the view, typically from a nib.
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
     override func viewDidAppear(_ animated: Bool) {
         // 1
         let nav = self.navigationController?.navigationBar
@@ -41,33 +34,6 @@ class SecondViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         // 5
         navigationItem.titleView = imageView
     }
-    
-
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    
-    
-    // returns the number of 'columns' to display.
-    @available(iOS 2.0, *)
-    public func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
-    
-    // returns the # of rows in each component..
-    @available(iOS 2.0, *)
-    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return pickerDataSource.count
-    }
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return pickerDataSource [row]
-
-    
-    }
-
 }
 
 
