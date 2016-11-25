@@ -14,6 +14,8 @@ class FourthViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     
     @IBOutlet var pageControl: UIPageControl!
     
+    @IBOutlet var ScrollViewExpert: UIScrollView!
+    
     @IBOutlet var pickerView2: UIPickerView!
     
     var pickerDataSource = ["-500","-400","-300","-200","-100","0", "+100","+200", "+300", "+400","+500"];
@@ -22,7 +24,9 @@ class FourthViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         pickerView2.dataSource = self;
         pickerView2.delegate = self;
         pickerView2.backgroundColor = UIColor.white
+        ScrollViewExpert.contentSize.height = 1000
        }
+    
     
     override func viewDidAppear(_ animated: Bool) {
         // 1
