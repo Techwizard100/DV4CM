@@ -20,6 +20,8 @@
 		631F3F111DE296AD0060A92E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F3F101DE296AD0060A92E /* ThirdViewController.swift */; };
 		631F3F131DE296DA0060A92E /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F3F121DE296DA0060A92E /* ForthViewController.swift */; };
 		6320857F1DE74836005248E0 /* Screen Shot 2016-11-24 at 11.08.40 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 6320857E1DE74836005248E0 /* Screen Shot 2016-11-24 at 11.08.40 AM.png */; };
+		63C341F61DE9D702003A343F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C341F51DE9D702003A343F /* CoreBluetooth.framework */; };
+		63C342021DEA14BA003A343F /* WhosOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C342011DEA14BA003A343F /* WhosOnViewController.swift */; };
 		63C9DBE31DE61721008046EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C9DBE11DE61721008046EF /* ViewController.swift */; };
 		63C9DBE41DE61721008046EF /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C9DBE21DE61721008046EF /* GraphViewController.swift */; };
 		63C9DBE61DE6173A008046EF /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C9DBE51DE6173A008046EF /* ScrollableGraphView.swift */; };
@@ -66,6 +68,8 @@
 		631F3F101DE296AD0060A92E /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		631F3F121DE296DA0060A92E /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
 		6320857E1DE74836005248E0 /* Screen Shot 2016-11-24 at 11.08.40 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-11-24 at 11.08.40 AM.png"; sourceTree = "<group>"; };
+		63C341F51DE9D702003A343F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		63C342011DEA14BA003A343F /* WhosOnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhosOnViewController.swift; sourceTree = "<group>"; };
 		63C9DBE11DE61721008046EF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63C9DBE21DE61721008046EF /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 		63C9DBE51DE6173A008046EF /* ScrollableGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphView.swift; sourceTree = "<group>"; };
@@ -80,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C341F61DE9D702003A343F /* CoreBluetooth.framework in Frameworks */,
 				1F2B6EF2322FE2140DF64FCB /* Pods_DV4mini.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +141,7 @@
 				631F3EE41DE295DE0060A92E /* SecondViewController.swift */,
 				631F3F101DE296AD0060A92E /* ThirdViewController.swift */,
 				631F3F121DE296DA0060A92E /* ForthViewController.swift */,
+				63C342011DEA14BA003A343F /* WhosOnViewController.swift */,
 				631F3EE61DE295DE0060A92E /* Main.storyboard */,
 				6320857E1DE74836005248E0 /* Screen Shot 2016-11-24 at 11.08.40 AM.png */,
 				631F3EE91DE295DE0060A92E /* Assets.xcassets */,
@@ -174,6 +180,7 @@
 		7D212903D97DDC347D6F1659 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63C341F51DE9D702003A343F /* CoreBluetooth.framework */,
 				0D6133521B53D6B07BAD8B0B /* Pods_DV4mini.framework */,
 				BDD6950F9941ABC10F4414E1 /* Pods_DV4miniTests.framework */,
 				5D5FAB45FB323756ECD67EBB /* Pods_DV4miniUITests.framework */,
@@ -482,6 +489,7 @@
 				631F3F111DE296AD0060A92E /* ThirdViewController.swift in Sources */,
 				63C9DBE31DE61721008046EF /* ViewController.swift in Sources */,
 				63C9DBE41DE61721008046EF /* GraphViewController.swift in Sources */,
+				63C342021DEA14BA003A343F /* WhosOnViewController.swift in Sources */,
 				631F3EE31DE295DE0060A92E /* FirstViewController.swift in Sources */,
 				63C9DBE61DE6173A008046EF /* ScrollableGraphView.swift in Sources */,
 				631F3F131DE296DA0060A92E /* ForthViewController.swift in Sources */,
