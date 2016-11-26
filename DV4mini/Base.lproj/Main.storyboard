@@ -33,7 +33,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="CONTROL PANEL">
+                                    <fragment content="WHO'S ON">
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
@@ -47,21 +47,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="SZl-xC-snu">
-                        <barButtonItem key="rightBarButtonItem" title="Back" id="rMA-jB-WnV">
-                            <connections>
-                                <segue destination="IFz-K1-aPn" kind="show" id="Tmn-YE-SPm"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationItem key="navigationItem" id="SZl-xC-snu"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="WhosOnWebView" destination="Tsj-sP-UkA" id="VPI-eR-Eco"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z5c-93-paE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2624.8000000000002" y="-2298.8005997001501"/>
+            <point key="canvasLocation" x="4351.1999999999998" y="357.57121439280365"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="g0q-ug-vch">
@@ -79,7 +73,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="CONTROL PANEL">
+                                    <fragment content="MESSAGES">
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
@@ -89,22 +83,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfE-Te-pga">
-                                <rect key="frame" x="0.0" y="89" width="375" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Messages">
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="16" name="GillSans"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -112,11 +90,7 @@
                         <barButtonItem title="Item" id="lKJ-3r-DM2"/>
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="UXD-40-Kzw">
-                        <barButtonItem key="rightBarButtonItem" title="Next" id="49a-DD-kLM">
-                            <connections>
-                                <segue destination="Xa9-1W-BNn" kind="show" id="KYB-Jg-rN9"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" id="49a-DD-kLM"/>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -223,7 +197,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="CONTROL PANEL">
+                                    <fragment content="CONNECT">
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
@@ -471,7 +445,7 @@
                         <color key="backgroundColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Nv1-wc-Nae">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="p3g-1v-v2N">
+                        <barButtonItem key="rightBarButtonItem" id="p3g-1v-v2N">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="swX-tb-ZJR">
                                 <rect key="frame" x="309" y="4" width="50" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -523,7 +497,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egU-lc-qAp">
-                                        <rect key="frame" x="0.0" y="270" width="375" height="24"/>
+                                        <rect key="frame" x="0.0" y="222" width="375" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -538,21 +512,6 @@
                                         </attributedString>
                                         <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="E8P-BT-fFY">
-                                        <rect key="frame" x="238" y="173" width="51" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </switch>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Tuk-GJ-NYW">
-                                        <rect key="frame" x="238" y="206" width="51" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                                    </switch>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Use HAMNET IP's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RB3-Qu-Aj9">
-                                        <rect key="frame" x="88" y="178" width="136" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.99545272435897436" green="0.99545272435897436" blue="0.99545272435897436" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Auto Connect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cce-fd-pWe">
                                         <rect key="frame" x="89" y="144" width="105" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -561,7 +520,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DMR -QRG Correction [HZ]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GvG-Ni-e4R">
-                                        <rect key="frame" x="31" y="302" width="210" height="21"/>
+                                        <rect key="frame" x="36" y="293" width="210" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.99545272435897436" green="0.99545272435897436" blue="0.99545272435897436" alpha="1" colorSpace="calibratedRGB"/>
@@ -575,31 +534,10 @@
                                             <segment title="Network Mode (Search Network)"/>
                                         </segments>
                                     </segmentedControl>
-                                    <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ePu-rL-vEh">
-                                        <rect key="frame" x="226" y="293" width="86" height="38"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="keyPath">
-                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <outlet property="dataSource" destination="8rJ-Kc-sve" id="yaC-ci-MBV"/>
-                                            <outlet property="delegate" destination="8rJ-Kc-sve" id="ys1-XG-dWZ"/>
-                                        </connections>
-                                    </pickerView>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ucu-rW-k6f">
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ucu-rW-k6f">
                                         <rect key="frame" x="238" y="139" width="51" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </switch>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fixed IP/URL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVg-NS-naB">
-                                        <rect key="frame" x="88" y="211" width="97" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.99545272435897436" green="0.99545272435897436" blue="0.99545272435897436" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4mc-Sj-Xnw">
                                         <rect key="frame" x="16" y="43" width="343" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -624,6 +562,20 @@
                                         <color key="textColor" red="0.99545272435897436" green="0.99545272435897436" blue="0.99545272435897436" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ePu-rL-vEh">
+                                        <rect key="frame" x="232" y="284" width="86" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="keyPath">
+                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="8rJ-Kc-sve" id="yaC-ci-MBV"/>
+                                            <outlet property="delegate" destination="8rJ-Kc-sve" id="ys1-XG-dWZ"/>
+                                        </connections>
+                                    </pickerView>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -699,7 +651,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Expert">
+                                    <fragment content="C4FM/BUFFER">
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
@@ -757,9 +709,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3aI-hO-gAQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1695.2" y="1015.1424287856073"/>
+            <point key="canvasLocation" x="2628" y="1052"/>
         </scene>
-        <!--Reflector-->
+        <!--View Controller-->
         <scene sceneID="0HS-jp-uLp">
             <objects>
                 <viewController id="SEX-Ft-c3w" sceneMemberID="viewController">
@@ -788,12 +740,11 @@
                         </subviews>
                         <color key="backgroundColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Reflector" image="satellite-dish-32" selectedImage="satellite-dish-32" id="Rhf-oX-bAH"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rhb-P2-hZ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3432.8000000000002" y="357.57121439280365"/>
+            <point key="canvasLocation" x="4188" y="1071"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="JjM-sp-XF1">
@@ -855,7 +806,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D7E-bl-O1k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6586" y="0.0"/>
+            <point key="canvasLocation" x="7524" y="-0.44977511244377816"/>
         </scene>
         <!--TabBarController-->
         <scene sceneID="yl2-sM-qoP">
@@ -871,7 +822,7 @@
                     <connections>
                         <segue destination="EhM-JH-LMA" kind="relationship" relationship="viewControllers" id="RJM-So-vyW"/>
                         <segue destination="AhE-fS-aeM" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="SEX-Ft-c3w" kind="relationship" relationship="viewControllers" id="cEd-SE-Avy"/>
+                        <segue destination="W6D-wi-hVe" kind="relationship" relationship="viewControllers" id="T1u-uv-Caa"/>
                         <segue destination="Vm8-iQ-wwR" kind="relationship" relationship="viewControllers" id="39X-Qe-Cdy"/>
                         <segue destination="YNP-Lt-Xp2" kind="relationship" relationship="viewControllers" id="ygH-v2-BxS"/>
                     </connections>
@@ -1320,7 +1271,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ShZ-yF-2Kg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5649" y="0.0"/>
+            <point key="canvasLocation" x="6588" y="-0.44977511244377816"/>
+        </scene>
+        <!--Who's On-->
+        <scene sceneID="pcu-eW-TmU">
+            <objects>
+                <navigationController storyboardIdentifier="WhosOnNavController" automaticallyAdjustsScrollViewInsets="NO" id="W6D-wi-hVe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Who's On" image="satellite-dish-32" id="YjZ-hf-uyQ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0cH-1X-Yly">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Xa9-1W-BNn" kind="relationship" relationship="rootViewController" id="yx8-xO-PcT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6kh-KR-dAT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3412" y="357.57121439280365"/>
         </scene>
     </scenes>
     <resources>
@@ -1332,7 +1302,4 @@
         <image name="spanner-settings-button-32" width="32" height="32"/>
         <image name="statistical-chart-rss-32" width="32" height="32"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="ytu-5o-2Fp"/>
-    </inferredMetricsTieBreakers>
 </document>

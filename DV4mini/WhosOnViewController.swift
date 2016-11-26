@@ -18,7 +18,7 @@ class WhosOnViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         
-        let DMRLiveURL = URL(string: "http://176.10.105.248/live_dmr/")
+        let DMRLiveURL = URL(string: "http://www.dv4.us/index.php/lets-see-whos-on/")
         let DMRLiveURLRequest = URLRequest(url: DMRLiveURL!)
         WhosOnWebView.loadRequest (DMRLiveURLRequest)
         
