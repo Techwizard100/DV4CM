@@ -21,7 +21,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Reb-Hs-Xa8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zJp-wp-NcN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tsj-sP-UkA">
@@ -46,6 +46,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="SZl-xC-snu">
+                        <barButtonItem key="rightBarButtonItem" title="Back" id="rMA-jB-WnV">
+                            <connections>
+                                <segue destination="IFz-K1-aPn" kind="show" id="Tmn-YE-SPm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="WhosOnWebView" destination="Tsj-sP-UkA" id="VPI-eR-Eco"/>
                     </connections>
@@ -63,7 +72,7 @@
                         <viewControllerLayoutGuide type="bottom" id="9yy-JR-J4q"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3V9-5L-84f">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyI-T3-rmV">
@@ -96,17 +105,20 @@
                                 </attributedString>
                                 <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqD-RW-wYP">
-                                <rect key="frame" x="327" y="121" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
-                                <connections>
-                                    <segue destination="Xa9-1W-BNn" kind="show" id="hw2-mO-d6T"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="lKJ-3r-DM2"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="UXD-40-Kzw">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="49a-DD-kLM">
+                            <connections>
+                                <segue destination="Xa9-1W-BNn" kind="show" id="KYB-Jg-rN9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1oW-N7-aUS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -171,15 +183,6 @@
                                 <rect key="frame" x="117" y="280" width="208" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QlS-xT-n33">
-                                <rect key="frame" x="313" y="92" width="62" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Next"/>
-                                <connections>
-                                    <segue destination="IFz-K1-aPn" kind="show" id="uuR-9j-LPL"/>
-                                </connections>
-                            </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="P65-RK-MVA">
                                 <rect key="frame" x="65" y="426" width="233" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -237,6 +240,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="VNs-QA-Lx1">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="Ibv-Nj-YkE">
+                            <connections>
+                                <segue destination="IFz-K1-aPn" kind="show" id="ytu-5o-2Fp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hLc-EI-KAc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -435,15 +445,6 @@
                                         </attributedString>
                                         <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swX-tb-ZJR">
-                                        <rect key="frame" x="305" y="-40" width="50" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <state key="normal" title="Next"/>
-                                        <connections>
-                                            <segue destination="flo-Ei-FEB" kind="show" id="SH9-yR-rPm"/>
-                                        </connections>
-                                    </button>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lR4-6X-obZ">
                                         <rect key="frame" x="8" y="410" width="353" height="29"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -469,7 +470,19 @@
                         </subviews>
                         <color key="backgroundColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Nv1-wc-Nae"/>
+                    <navigationItem key="navigationItem" id="Nv1-wc-Nae">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="p3g-1v-v2N">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="swX-tb-ZJR">
+                                <rect key="frame" x="309" y="4" width="50" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="flo-Ei-FEB" kind="show" id="SH9-yR-rPm"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="ScrollViewPanel" destination="ACr-Pb-jK3" id="f9I-CI-ccK"/>
                         <outlet property="pickerView" destination="892-Xi-NSV" id="jSj-ZX-jjv"/>
@@ -533,13 +546,6 @@
                                         <rect key="frame" x="238" y="206" width="51" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                     </switch>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DV4 Mini's found: IP Port [SN] Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZm-Iv-tw5">
-                                        <rect key="frame" x="46" y="42" width="282" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <color key="textColor" red="0.99545272435897436" green="0.99545272435897436" blue="0.99545272435897436" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Use HAMNET IP's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RB3-Qu-Aj9">
                                         <rect key="frame" x="88" y="178" width="136" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -562,7 +568,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="sCL-83-FrV">
-                                        <rect key="frame" x="8" y="0.0" width="358" height="29"/>
+                                        <rect key="frame" x="9" y="-22" width="358" height="29"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <segments>
                                             <segment title="Local Mode (This Device)"/>
@@ -595,7 +601,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4mc-Sj-Xnw">
-                                        <rect key="frame" x="16" y="71" width="343" height="58"/>
+                                        <rect key="frame" x="16" y="43" width="343" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
@@ -611,20 +617,30 @@
                                         <color key="textColor" red="0.99545272435897436" green="0.99545272435897436" blue="0.99545272435897436" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkZ-FE-4pi">
-                                        <rect key="frame" x="320" y="-38" width="32" height="30"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DV4 Mini's found: IP Port [SN] Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZm-Iv-tw5">
+                                        <rect key="frame" x="47" y="14" width="282" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Next"/>
-                                        <connections>
-                                            <segue destination="PnZ-Vw-ozK" kind="show" id="6gt-n3-jSA"/>
-                                        </connections>
-                                    </button>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.99545272435897436" green="0.99545272435897436" blue="0.99545272435897436" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="x9J-lg-PhE"/>
+                    <navigationItem key="navigationItem" id="x9J-lg-PhE">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="2cY-k7-b0S">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lkZ-FE-4pi">
+                                <rect key="frame" x="327" y="7" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="PnZ-Vw-ozK" kind="show" id="6gt-n3-jSA"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="ScrollViewExpert" destination="d2v-Vv-avm" id="0Oy-tx-PyT"/>
                         <outlet property="pickerView2" destination="ePu-rL-vEh" id="MkV-DG-GnE"/>
@@ -856,10 +872,10 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Control-->
+        <!--NavigationControllerForMainControl-->
         <scene sceneID="mBp-Wd-6MB">
             <objects>
-                <navigationController storyboardIdentifier="NavigationController" automaticallyAdjustsScrollViewInsets="NO" id="EhM-JH-LMA" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NavigationController" title="NavigationControllerForMainControl" automaticallyAdjustsScrollViewInsets="NO" id="EhM-JH-LMA" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Control" image="music-control-settings-button-32" selectedImage="music-control-settings-button-32" id="dnK-qz-oqU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lf5-px-hf9">
@@ -1308,4 +1324,7 @@
         <image name="spanner-settings-button-32" width="32" height="32"/>
         <image name="statistical-chart-rss-32" width="32" height="32"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Tmn-YE-SPm"/>
+    </inferredMetricsTieBreakers>
 </document>
