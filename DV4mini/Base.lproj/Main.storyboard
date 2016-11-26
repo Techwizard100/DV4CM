@@ -215,7 +215,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-11-24 at 11.08.40 AM.png" translatesAutoresizingMaskIntoConstraints="NO" id="lDw-cC-0ZQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-11-24 at 11.08.40 AM" translatesAutoresizingMaskIntoConstraints="NO" id="lDw-cC-0ZQ">
                                 <rect key="frame" x="27" y="347" width="320" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
@@ -630,11 +630,19 @@
                         <color key="backgroundColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="x9J-lg-PhE">
-                        <barButtonItem key="rightBarButtonItem" title="Next" style="plain" id="2cY-k7-b0S">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lkZ-FE-4pi">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="2cY-k7-b0S">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="lkZ-FE-4pi">
                                 <rect key="frame" x="327" y="7" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <segue destination="PnZ-Vw-ozK" kind="show" id="6gt-n3-jSA"/>
                                 </connections>
@@ -653,7 +661,7 @@
         <!--Expert Page2 View Controller-->
         <scene sceneID="c0q-AP-ndK">
             <objects>
-                <viewController storyboardIdentifier="Expert_Page_2_ViewController" id="PnZ-Vw-ozK" customClass="Expert_Page_2_ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Expert_Page_2_ViewController" id="PnZ-Vw-ozK" customClass="ExpertPage2ViewController" customModule="DV4mini" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KGo-Zc-Iwq"/>
                         <viewControllerLayoutGuide type="bottom" id="FJB-bS-Qqn"/>
@@ -1317,7 +1325,7 @@
     </scenes>
     <resources>
         <image name="Connection Log" width="428" height="121"/>
-        <image name="Screen Shot 2016-11-24 at 11.08.40 AM.png" width="348" height="22"/>
+        <image name="Screen Shot 2016-11-24 at 11.08.40 AM" width="348" height="22"/>
         <image name="music-control-settings-button-32" width="32" height="32"/>
         <image name="satellite-dish-32" width="32" height="32"/>
         <image name="settings-cogwheel-button-32" width="32" height="32"/>
@@ -1325,6 +1333,6 @@
         <image name="statistical-chart-rss-32" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Tmn-YE-SPm"/>
+        <segue reference="ytu-5o-2Fp"/>
     </inferredMetricsTieBreakers>
 </document>

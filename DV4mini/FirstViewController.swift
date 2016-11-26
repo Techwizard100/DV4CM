@@ -40,7 +40,7 @@ class FirstViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
         imageView.contentMode = .scaleAspectFit
         // 4
-        let image = UIImage(named: "DV4mini_logo.png")
+        let image = UIImage(named: "DV4mini_logo_65.png")
         imageView.image = image
         // 5
         navigationItem.titleView = imageView
