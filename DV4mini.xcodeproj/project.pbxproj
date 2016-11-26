@@ -22,6 +22,7 @@
 		6320857F1DE74836005248E0 /* Screen Shot 2016-11-24 at 11.08.40 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 6320857E1DE74836005248E0 /* Screen Shot 2016-11-24 at 11.08.40 AM.png */; };
 		63C341F61DE9D702003A343F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C341F51DE9D702003A343F /* CoreBluetooth.framework */; };
 		63C342021DEA14BA003A343F /* WhosOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C342011DEA14BA003A343F /* WhosOnViewController.swift */; };
+		63C342041DEA23BF003A343F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C342031DEA23BF003A343F /* SettingsViewController.swift */; };
 		63C9DBE31DE61721008046EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C9DBE11DE61721008046EF /* ViewController.swift */; };
 		63C9DBE41DE61721008046EF /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C9DBE21DE61721008046EF /* GraphViewController.swift */; };
 		63C9DBE61DE6173A008046EF /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C9DBE51DE6173A008046EF /* ScrollableGraphView.swift */; };
@@ -70,6 +71,7 @@
 		6320857E1DE74836005248E0 /* Screen Shot 2016-11-24 at 11.08.40 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-11-24 at 11.08.40 AM.png"; sourceTree = "<group>"; };
 		63C341F51DE9D702003A343F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		63C342011DEA14BA003A343F /* WhosOnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhosOnViewController.swift; sourceTree = "<group>"; };
+		63C342031DEA23BF003A343F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		63C9DBE11DE61721008046EF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63C9DBE21DE61721008046EF /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 		63C9DBE51DE6173A008046EF /* ScrollableGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphView.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				631F3F121DE296DA0060A92E /* ForthViewController.swift */,
 				63C342011DEA14BA003A343F /* WhosOnViewController.swift */,
 				631F3EE61DE295DE0060A92E /* Main.storyboard */,
+				63C342031DEA23BF003A343F /* SettingsViewController.swift */,
 				6320857E1DE74836005248E0 /* Screen Shot 2016-11-24 at 11.08.40 AM.png */,
 				631F3EE91DE295DE0060A92E /* Assets.xcassets */,
 				631F3EEB1DE295DE0060A92E /* LaunchScreen.storyboard */,
@@ -487,6 +490,7 @@
 				631F3EE51DE295DE0060A92E /* SecondViewController.swift in Sources */,
 				631F3EE11DE295DE0060A92E /* AppDelegate.swift in Sources */,
 				631F3F111DE296AD0060A92E /* ThirdViewController.swift in Sources */,
+				63C342041DEA23BF003A343F /* SettingsViewController.swift in Sources */,
 				63C9DBE31DE61721008046EF /* ViewController.swift in Sources */,
 				63C9DBE41DE61721008046EF /* GraphViewController.swift in Sources */,
 				63C342021DEA14BA003A343F /* WhosOnViewController.swift in Sources */,
