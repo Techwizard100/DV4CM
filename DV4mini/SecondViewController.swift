@@ -8,17 +8,37 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    @IBOutlet weak var TransmitBufferLabel: UILabel!
+    @IBOutlet weak var TransmitBufferSizePickerView: UIPickerView!
+    
+    var buffervalues = ["0.25","0.5","1.0","1.5"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        TransmitBufferSizePickerView.delegate = self
+        TransmitBufferSizePickerView.dataSource = self
+     //   TransmitBufferSizePickerView.backgroundColor = UIColor.white
+                 
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
     }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return buffervalues.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return buffervalues[row]
+    }
+    
+ //   func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+ //       TransmitBufferLabel.text = buffervalues[row]    }
+
     override func viewDidAppear(_ animated: Bool) {
         // 1
         let nav = self.navigationController?.navigationBar
@@ -34,6 +54,7 @@ class SecondViewController: UIViewController {
         // 5
         navigationItem.titleView = imageView
     }
+
+
+
 }
-
-
