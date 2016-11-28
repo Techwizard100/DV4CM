@@ -6,7 +6,7 @@
 import UIKit
 
 
-class ViewController: UIViewController {
+class ScrollableViewController: UIViewController {
     
     var childVC: GraphViewController?
 
