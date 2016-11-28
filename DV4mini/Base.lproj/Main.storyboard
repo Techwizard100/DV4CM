@@ -1175,10 +1175,10 @@
             </objects>
             <point key="canvasLocation" x="5998" y="0.0"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings Nav View Controller-->
         <scene sceneID="uSK-us-4ZJ">
             <objects>
-                <viewController id="K69-MM-7pU" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsNavViewController" id="K69-MM-7pU" customClass="SettingsNavViewController" customModule="DV4mini" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2cM-lm-j4q"/>
                         <viewControllerLayoutGuide type="bottom" id="yCD-dX-uID"/>
@@ -1187,11 +1187,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ck1-Be-3sg" customClass="ScanButton" customModule="DV4mini" customModuleProvider="target">
-                                <rect key="frame" x="68" y="294" width="238" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPq-zH-k2A">
+                                <rect key="frame" x="108" y="326" width="159" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Scan for BLE Devices"/>
+                                <state key="normal" title="1. Scan for BLE devices"/>
+                                <connections>
+                                    <segue destination="nUL-sx-P1S" kind="show" id="yfN-Hm-gkt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1201,6 +1203,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ETg-B6-Q7a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6792.8000000000002" y="-1.3493253373313345"/>
+        </scene>
+        <!--Peripherials-->
+        <scene sceneID="YnA-AS-8gj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Peripherials" id="nUL-sx-P1S" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zln-aL-4dk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7375" y="-2"/>
         </scene>
         <!--Who's On-->
         <scene sceneID="pcu-eW-TmU">
