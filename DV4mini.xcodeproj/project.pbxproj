@@ -152,9 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				633B79671DEC74E4002C3A26 /* BLEScanner */,
-				63C9DBE11DE61721008046EF /* ScrollingGraphViewController.swift */,
 				63C9DBE21DE61721008046EF /* GraphViewController.swift */,
-				63C9DBE71DE61745008046EF /* Classes */,
+				63C9DBE11DE61721008046EF /* ScrollingGraphViewController.swift */,
+				63C9DBE51DE6173A008046EF /* ScrollableGraphView.swift */,
 				631F3EE01DE295DE0060A92E /* AppDelegate.swift */,
 				631F3EE21DE295DE0060A92E /* FirstViewController.swift */,
 				631F3EE41DE295DE0060A92E /* SecondViewController.swift */,
@@ -202,14 +202,6 @@
 				633B796A1DEC7852002C3A26 /* Peripherials.storyboard */,
 			);
 			name = BLEScanner;
-			sourceTree = "<group>";
-		};
-		63C9DBE71DE61745008046EF /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				63C9DBE51DE6173A008046EF /* ScrollableGraphView.swift */,
-			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
 		7D212903D97DDC347D6F1659 /* Frameworks */ = {
