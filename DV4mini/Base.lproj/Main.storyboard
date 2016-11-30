@@ -1208,7 +1208,6 @@
         <!--Settings-->
         <scene sceneID="TJS-oO-3Vb">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ShZ-yF-2Kg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YNP-Lt-Xp2" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Settings" image="settings-cogwheel-button-32" selectedImage="settings-cogwheel-button-32" id="BlA-Y0-WqX"/>
                     <toolbarItems/>
@@ -1221,6 +1220,7 @@
                         <segue destination="K69-MM-7pU" kind="relationship" relationship="rootViewController" id="1hl-Xs-BcM"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ShZ-yF-2Kg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5998" y="0.0"/>
         </scene>
