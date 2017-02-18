@@ -13,7 +13,7 @@ class SecondViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     @IBOutlet weak var TransmitBufferLabel: UILabel!
     @IBOutlet weak var TransmitBufferSizePickerView: UIPickerView!
     
-    var buffervalues = ["0.25","0.5","1.0","1.5"]
+    var buffervalues = ["0.25","0.5","1.0","1.5","2.0","3.0"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
