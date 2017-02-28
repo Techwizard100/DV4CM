@@ -19,7 +19,19 @@
 		631F3F031DE295DF0060A92E /* DV4miniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F3F021DE295DF0060A92E /* DV4miniUITests.swift */; };
 		631F3F111DE296AD0060A92E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F3F101DE296AD0060A92E /* ThirdViewController.swift */; };
 		631F3F131DE296DA0060A92E /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F3F121DE296DA0060A92E /* ForthViewController.swift */; };
-		63C9DBE31DE61721008046EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C9DBE11DE61721008046EF /* ViewController.swift */; };
+		633B795B1DEC7487002C3A26 /* PeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B79571DEC7487002C3A26 /* PeripheralViewController.swift */; };
+		633B795C1DEC7487002C3A26 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B79581DEC7487002C3A26 /* DeviceTableViewCell.swift */; };
+		633B795D1DEC7487002C3A26 /* BluetoothColorsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B79591DEC7487002C3A26 /* BluetoothColorsExtension.swift */; };
+		633B79631DEC74BF002C3A26 /* PulseAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B795F1DEC74BF002C3A26 /* PulseAnimationExtension.swift */; };
+		633B79641DEC74BF002C3A26 /* ScanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B79601DEC74BF002C3A26 /* ScanButton.swift */; };
+		633B79651DEC74BF002C3A26 /* PeripheralConnectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B79611DEC74BF002C3A26 /* PeripheralConnectedViewController.swift */; };
+		633B79661DEC74BF002C3A26 /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B79621DEC74BF002C3A26 /* ServiceTableViewCell.swift */; };
+		633B796B1DEC7852002C3A26 /* Peripherials.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633B796A1DEC7852002C3A26 /* Peripherials.storyboard */; };
+		633B796D1DEC7977002C3A26 /* SettingsNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B796C1DEC7977002C3A26 /* SettingsNavViewController.swift */; };
+		6396AE441DEA36F400C9D408 /* ExpertPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396AE431DEA36F400C9D408 /* ExpertPage2ViewController.swift */; };
+		63C341F61DE9D702003A343F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C341F51DE9D702003A343F /* CoreBluetooth.framework */; };
+		63C342021DEA14BA003A343F /* WhosOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C342011DEA14BA003A343F /* WhosOnViewController.swift */; };
+		63C9DBE31DE61721008046EF /* ScrollingGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C9DBE11DE61721008046EF /* ScrollingGraphViewController.swift */; };
 		63C9DBE41DE61721008046EF /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C9DBE21DE61721008046EF /* GraphViewController.swift */; };
 		63C9DBE61DE6173A008046EF /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C9DBE51DE6173A008046EF /* ScrollableGraphView.swift */; };
 		A13AAAB43FD318C932E599FF /* Pods_DV4miniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5FAB45FB323756ECD67EBB /* Pods_DV4miniUITests.framework */; };
@@ -64,7 +76,19 @@
 		631F3F041DE295DF0060A92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		631F3F101DE296AD0060A92E /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		631F3F121DE296DA0060A92E /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
-		63C9DBE11DE61721008046EF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		633B79571DEC7487002C3A26 /* PeripheralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralViewController.swift; sourceTree = "<group>"; };
+		633B79581DEC7487002C3A26 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		633B79591DEC7487002C3A26 /* BluetoothColorsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothColorsExtension.swift; sourceTree = "<group>"; };
+		633B795F1DEC74BF002C3A26 /* PulseAnimationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseAnimationExtension.swift; sourceTree = "<group>"; };
+		633B79601DEC74BF002C3A26 /* ScanButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanButton.swift; sourceTree = "<group>"; };
+		633B79611DEC74BF002C3A26 /* PeripheralConnectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralConnectedViewController.swift; sourceTree = "<group>"; };
+		633B79621DEC74BF002C3A26 /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
+		633B796A1DEC7852002C3A26 /* Peripherials.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Peripherials.storyboard; sourceTree = "<group>"; };
+		633B796C1DEC7977002C3A26 /* SettingsNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsNavViewController.swift; sourceTree = "<group>"; };
+		6396AE431DEA36F400C9D408 /* ExpertPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpertPage2ViewController.swift; sourceTree = "<group>"; };
+		63C341F51DE9D702003A343F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		63C342011DEA14BA003A343F /* WhosOnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhosOnViewController.swift; sourceTree = "<group>"; };
+		63C9DBE11DE61721008046EF /* ScrollingGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingGraphViewController.swift; sourceTree = "<group>"; };
 		63C9DBE21DE61721008046EF /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 		63C9DBE51DE6173A008046EF /* ScrollableGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphView.swift; sourceTree = "<group>"; };
 		6DA5E8D6953E838E023D1628 /* Pods-DV4miniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DV4miniUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DV4miniUITests/Pods-DV4miniUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C341F61DE9D702003A343F /* CoreBluetooth.framework in Frameworks */,
 				1F2B6EF2322FE2140DF64FCB /* Pods_DV4mini.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,15 +151,19 @@
 		631F3EDF1DE295DE0060A92E /* DV4mini */ = {
 			isa = PBXGroup;
 			children = (
-				63C9DBE11DE61721008046EF /* ViewController.swift */,
+				633B79671DEC74E4002C3A26 /* BLEScanner */,
 				63C9DBE21DE61721008046EF /* GraphViewController.swift */,
-				63C9DBE71DE61745008046EF /* Classes */,
+				63C9DBE11DE61721008046EF /* ScrollingGraphViewController.swift */,
+				63C9DBE51DE6173A008046EF /* ScrollableGraphView.swift */,
 				631F3EE01DE295DE0060A92E /* AppDelegate.swift */,
 				631F3EE21DE295DE0060A92E /* FirstViewController.swift */,
 				631F3EE41DE295DE0060A92E /* SecondViewController.swift */,
 				631F3F101DE296AD0060A92E /* ThirdViewController.swift */,
 				631F3F121DE296DA0060A92E /* ForthViewController.swift */,
+				63C342011DEA14BA003A343F /* WhosOnViewController.swift */,
+				6396AE431DEA36F400C9D408 /* ExpertPage2ViewController.swift */,
 				631F3EE61DE295DE0060A92E /* Main.storyboard */,
+				633B796C1DEC7977002C3A26 /* SettingsNavViewController.swift */,
 				631F3EE91DE295DE0060A92E /* Assets.xcassets */,
 				631F3EEB1DE295DE0060A92E /* LaunchScreen.storyboard */,
 				631F3EEE1DE295DE0060A92E /* Info.plist */,
@@ -160,17 +189,25 @@
 			path = DV4miniUITests;
 			sourceTree = "<group>";
 		};
-		63C9DBE71DE61745008046EF /* Classes */ = {
+		633B79671DEC74E4002C3A26 /* BLEScanner */ = {
 			isa = PBXGroup;
 			children = (
-				63C9DBE51DE6173A008046EF /* ScrollableGraphView.swift */,
+				633B79571DEC7487002C3A26 /* PeripheralViewController.swift */,
+				633B79581DEC7487002C3A26 /* DeviceTableViewCell.swift */,
+				633B79591DEC7487002C3A26 /* BluetoothColorsExtension.swift */,
+				633B795F1DEC74BF002C3A26 /* PulseAnimationExtension.swift */,
+				633B79601DEC74BF002C3A26 /* ScanButton.swift */,
+				633B79611DEC74BF002C3A26 /* PeripheralConnectedViewController.swift */,
+				633B79621DEC74BF002C3A26 /* ServiceTableViewCell.swift */,
+				633B796A1DEC7852002C3A26 /* Peripherials.storyboard */,
 			);
-			name = Classes;
+			name = BLEScanner;
 			sourceTree = "<group>";
 		};
 		7D212903D97DDC347D6F1659 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63C341F51DE9D702003A343F /* CoreBluetooth.framework */,
 				0D6133521B53D6B07BAD8B0B /* Pods_DV4mini.framework */,
 				BDD6950F9941ABC10F4414E1 /* Pods_DV4miniTests.framework */,
 				5D5FAB45FB323756ECD67EBB /* Pods_DV4miniUITests.framework */,
@@ -311,6 +348,7 @@
 				631F3EED1DE295DE0060A92E /* LaunchScreen.storyboard in Resources */,
 				631F3EEA1DE295DE0060A92E /* Assets.xcassets in Resources */,
 				631F3EE81DE295DE0060A92E /* Main.storyboard in Resources */,
+				633B796B1DEC7852002C3A26 /* Peripherials.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,11 +511,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633B79651DEC74BF002C3A26 /* PeripheralConnectedViewController.swift in Sources */,
 				631F3EE51DE295DE0060A92E /* SecondViewController.swift in Sources */,
 				631F3EE11DE295DE0060A92E /* AppDelegate.swift in Sources */,
 				631F3F111DE296AD0060A92E /* ThirdViewController.swift in Sources */,
-				63C9DBE31DE61721008046EF /* ViewController.swift in Sources */,
+				633B795B1DEC7487002C3A26 /* PeripheralViewController.swift in Sources */,
+				63C9DBE31DE61721008046EF /* ScrollingGraphViewController.swift in Sources */,
 				63C9DBE41DE61721008046EF /* GraphViewController.swift in Sources */,
+				633B796D1DEC7977002C3A26 /* SettingsNavViewController.swift in Sources */,
+				6396AE441DEA36F400C9D408 /* ExpertPage2ViewController.swift in Sources */,
+				633B795D1DEC7487002C3A26 /* BluetoothColorsExtension.swift in Sources */,
+				633B795C1DEC7487002C3A26 /* DeviceTableViewCell.swift in Sources */,
+				63C342021DEA14BA003A343F /* WhosOnViewController.swift in Sources */,
+				633B79641DEC74BF002C3A26 /* ScanButton.swift in Sources */,
+				633B79631DEC74BF002C3A26 /* PulseAnimationExtension.swift in Sources */,
+				633B79661DEC74BF002C3A26 /* ServiceTableViewCell.swift in Sources */,
 				631F3EE31DE295DE0060A92E /* FirstViewController.swift in Sources */,
 				63C9DBE61DE6173A008046EF /* ScrollableGraphView.swift in Sources */,
 				631F3F131DE296DA0060A92E /* ForthViewController.swift in Sources */,
@@ -553,6 +601,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -603,6 +652,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -635,7 +685,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K9Z4NGTM6T;
 				INFOPLIST_FILE = DV4mini/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HamRaydio.DV4mini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -650,7 +700,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K9Z4NGTM6T;
 				INFOPLIST_FILE = DV4mini/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HamRaydio.DV4mini;
 				PRODUCT_NAME = "$(TARGET_NAME)";

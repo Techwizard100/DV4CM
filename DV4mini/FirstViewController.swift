@@ -12,21 +12,48 @@ class FirstViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
 
     @IBOutlet var pageControl: UIPageControl!
     
+    @IBOutlet var ScrollViewPanel: UIScrollView!
+    
     @IBOutlet weak var pickerView: UIPickerView!
-    var pickerDataSource = ["A", "B", "C"];
+    
+    @IBAction func textFieldDoneEditing(sender: UITextField) {
+        sender.resignFirstResponder()}
+    
+    var pickerDataSource = ["A","B","C","D","E"];
      override func viewDidLoad() {
         super.viewDidLoad()
         self.pickerView.dataSource = self;
         self.pickerView.delegate = self;
+        pickerView.backgroundColor = UIColor.white
+        ScrollViewPanel.contentSize.height = 650
         
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        // 1
+        let nav = self.navigationController?.navigationBar
+        // 2
+        nav?.barStyle = UIBarStyle.black
+        nav?.tintColor = UIColor.yellow
+        // 3
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+        imageView.contentMode = .scaleAspectFit
+        // 4
+        let image = UIImage(named: "DV4mini_logo_65.png")
+        imageView.image = image
+        // 5
+        navigationItem.titleView = imageView
+    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
     // returns the number of 'columns' to display.
     @available(iOS 2.0, *)
     public func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -40,6 +67,7 @@ class FirstViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
     }
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return pickerDataSource [row]
+
         
 }
 }

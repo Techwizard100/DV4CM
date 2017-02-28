@@ -6,7 +6,7 @@
 import UIKit
 
 
-class ViewController: UIViewController {
+class ScrollableViewController: UIViewController {
     
     var childVC: GraphViewController?
 
@@ -65,6 +65,15 @@ class ViewController: UIViewController {
         addLabel(withText: currentGraphType.description().uppercased())
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        // Hide the navigation bar on the this view controller
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        // Show the navigation bar on other view controllers
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+    }
     
     // Adding and updating the graph switching label in the top right corner of the screen.
     private func addLabel(withText text: String) {
